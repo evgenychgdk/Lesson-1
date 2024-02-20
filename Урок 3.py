@@ -1,6 +1,13 @@
-# #
-# #
-# pruf = int(input("Введіть число:"))
+#"Task 1"
+# try:
+#     pruf = int(input("Введіть номер дня тижня (1-7): "))
+#
+# except ValueError:
+#     print("Помилка: Введіть ціле число від 1 до 7.")
+# except KeyError:
+#     print("Помилка: Номер дня тижня повинен бути від 1 до 7.")
+#
+#
 # if pruf == 1:
 #     print("Monday")
 # elif pruf == 2:
@@ -17,15 +24,49 @@
 #     print("Sunday")
 # else:
 #     print("None day")
-#
-pruf1 = int(input("Enter first number:"))
-pruf2 = int(input("Enter second number:"))
 
-if pruf1 == pruf2:
-    print("Numberі are equal to")
-elif pruf1 > pruf2:
-    print(pruf2,',',pruf1)
-elif pruf1 < pruf2:
-    print(pruf1,",",pruf2)
-else:
-    print("WTF")
+#
+#
+# "Task 2"
+# try:
+#     num1 = float(input("Введіть перше число: "))
+#     num2 = float(input("Введіть друге число: "))
+#
+#     if num1 == num2:
+#         print("Числа рівні.")
+#     else:
+#         print("Числа не рівні. В порядку зростання:", sorted([num1, num2]))
+# except ValueError:
+#     print("Помилка: Введіть дійсне число.")
+
+
+
+# "Task 3"
+# try:
+#     num1 = float(input("Введіть перше число: "))
+#     num2 = float(input("Введіть друге число: "))
+#     operation = input("Введіть математичну дію (+, -, *, /): ")
+#
+#     if operation == '+':
+#         result = num1 + num2
+#     elif operation == '-':
+#         result = num1 - num2
+#     elif operation == '*':
+#         result = num1 * num2
+#     elif operation == '/':
+#         if num2 != 0:
+#             result = num1 / num2
+#         else:
+#             print("Помилка: Ділення на нуль.")
+#
+#     else:
+#         print("Помилка: Невідома математична дія.")
+#
+#
+#     print("Результат: ", result)
+#
+# except ValueError:
+#     print("Помилка: Введіть дійсне число.")
+
+
+
